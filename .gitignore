@@ -7,3 +7,7 @@
 .idea/codeStyleSettings.xml
 .idea/scopes/scope_settings.xml
 .idea/vcs.xml
+__pycache__/Constants.cpython-34.pyc
+__pycache__/DBHandler.cpython-34.pyc
+__pycache__/Eurisco.cpython-34.pyc
+__pycache__/DBDefinition.cpython-34.pyc

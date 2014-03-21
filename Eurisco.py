@@ -22,7 +22,7 @@ class EuriscoData:
   def __fetch_data(self, type, duration):
 
     # Create our client object
-    client = Client(self.url)
+    client = Client(EuriscoData.url)
     #print(client)
 
     #Create the requestId object
@@ -46,7 +46,7 @@ class EuriscoData:
 
     flexInfo = {}
     price = 0
-    result = self.__fetch_data(1, 7200)
+    result = self.__fetch_data(1, 300)
     for flexPriceSignal in result:
       #print(flexPriceSignal)
       for x in flexPriceSignal:
