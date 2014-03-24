@@ -1,1 +1,1 @@
-connection_string = 'sqlite:///FlexPriceInfo'
+connection_string = 'sqlite:///FlexPriceInfo.db'
